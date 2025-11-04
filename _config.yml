@@ -239,10 +239,10 @@ collections:
 # These settings control how pages and collections are included in the site
 defaults:
 
-  # _research
+  # _projects
   - scope:
       path: ""
-      type: research
+      type: projects
     values:
       layout: single
       author_profile: true
