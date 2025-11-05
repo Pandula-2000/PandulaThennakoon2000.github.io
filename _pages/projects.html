@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: archive
 title: "Projects"
 permalink: /projects/
@@ -15,27 +15,4 @@ Below are selected projects I have led or contributed to, focusing on **signal p
 
 {% for post in site.projects reversed %}
   {% include archive-single.html %}
-{% endfor %} -->
-
----
-layout: archive
-title: "Research Projects"
-permalink: /research-projects/
-collection: projects
-author_profile: true
----
-
-{% include base_path %}
-
-<section>
-  <p>
-    Below are selected research projects focused on <strong>signal processing</strong>, <strong>AI/ML</strong>, and
-    <strong>simulation modeling</strong>. Each project page includes a summary, highlights, and paper links.
-  </p>
-</section>
-
-<section>
-  {% for post in site.projects reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-</section>
+{% endfor %}
