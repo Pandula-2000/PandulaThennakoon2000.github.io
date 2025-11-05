@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "COSMO-RC: Complex Sinusoidal Modulation for Implicit Neural Representations"
 collection: projects
 permalink: /projects/INR
@@ -19,4 +19,40 @@ It mitigates *spectral bias* and improves the frequency representation of signal
 
 **Keywords:** Implicit Neural Representation, Signal Processing, Activation Functions, Deep Learning
 
-[📄 Read Full Paper (PDF)](/files/COSMO_RC_ICLR.pdf)
+[📄 Read Full Paper (PDF)](/files/COSMO_RC_ICLR.pdf) -->
+
+
+---
+title: "COSMO-RC: Complex Sinusoidal Modulation for Implicit Neural Representations"
+collection: projects
+permalink: /projects/cosmo-rc/
+date: 2025-02-01
+excerpt: "A novel activation mechanism for implicit neural representations (INRs) using complex sinusoidal modulation and Chebyshev harmonic analysis."
+venue: "Under review at ICLR 2026"
+paperurl: "/files/COSMO_RC_ICLR.pdf"
+author_profile: false
+---
+
+<div class="project">
+  <h2>COSMO-RC: Complex Sinusoidal Modulation for Implicit Neural Representations</h2>
+  <p><em>Venue:</em> Under review at ICLR 2026</p>
+
+  <h3>Summary</h3>
+  <p>
+    This project introduces <strong>COSMO-RC</strong>, a new activation mechanism for implicit neural
+    representations (INRs) based on <strong>complex sinusoidal modulation</strong>. It mitigates spectral bias and
+    improves frequency support across layers by coupling <em>harmonic distortion analysis</em> with
+    <em>Chebyshev polynomial theory</em>.
+  </p>
+
+  <h3>Highlights</h3>
+  <ul>
+    <li>New theory unifying harmonic distortion analysis and Chebyshev expansions for INR activations.</li>
+    <li><strong>+5.67 dB</strong> PSNR improvement in image reconstruction vs. SOTA INR baselines.</li>
+    <li>Strong results on denoising, super-resolution, and 3D shape reconstruction.</li>
+  </ul>
+
+  <p>
+    <a href="/files/COSMO_RC_ICLR.pdf">📄 Read Full Paper (PDF)</a>
+  </p>
+</div>
