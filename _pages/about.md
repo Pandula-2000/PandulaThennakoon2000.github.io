@@ -7,6 +7,13 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.about-page a { text-decoration: none; font-weight: 600; }
+.about-page a:hover, .about-page a:focus { text-decoration: none; }
+</style>
+
+<div class="about-page">
+
 ## About Me
 
 I am **Pandula Thennakoon**, a researcher in **Electrical and Electronic Engineering** with a strong background in **signal processing, artificial intelligence, and machine learning**.  
@@ -74,3 +81,14 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 ---
 
 *This website is powered by the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template and hosted on [GitHub Pages](https://pages.github.com).*
+
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.about-page a[href^="http"]').forEach(function (a) {
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener');
+    });
+  });
+  </script>
