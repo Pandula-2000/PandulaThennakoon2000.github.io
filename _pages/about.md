@@ -46,7 +46,7 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
   Secured the grant to support research on *Implicit Neural Representations* at the **Multidisciplinary AI Research Center (MARC)**, University of Peradeniya.
 
   <p align="center">
-    <img src="/assets/img/nvidia.jpeg" alt="NVIDIA Academic Grant" style="max-width: 70%; border-radius: 10px;">
+    <img src="/assets/images/nvidia.jpeg" alt="NVIDIA Academic Grant" style="max-width: 70%; border-radius: 10px;">
   </p>
 
 - 🎓 **W. M. G. Fernando Prize (2025)**  
