@@ -30,10 +30,6 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 - 💻 **NVIDIA Academic Grant (2024)**  
   Secured the grant to support research on *Implicit Neural Representations* at the **Multidisciplinary AI Research Center (MARC)**, University of Peradeniya.
 
-  <p align="center">
-    <img src="/images/nvidia.jpeg" alt="NVIDIA Academic Grant" style="max-width: 70%; border-radius: 10px;">
-  </p>
-
 - 🎓 **W. M. G. Fernando Prize (2025)**  
   Received for outstanding performance in *Electronic Communications* at the **General Convocation**, University of Peradeniya.
 
@@ -47,47 +43,11 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 - 🧠 **Predicta 1.0 (October 2024)** – *6th Place Nationally*  
   Achieved top national ranking at the IEEE Predicta 1.0 competition organized by the IEEE Student Branch, University of Peradeniya.
 
-
 - 🏅 **Professor Bartholomeusz Award (2022)** – *For excelling in Engineering Mathematics*  
   Awarded by the Alumni Association of the Faculty of Engineering, University of Peradeniya.
 
 - 🥉 **Bronze Medal** – *Sri Lanka Physics Olympiad (National Level, 2018)*  
   Recognized for excellence in Physics at the national Olympiad.
-
-- 🧾 **Outstanding Paper Award – ICAC 2024 (December)**  
-  For the paper titled [“Unveiling Motion Patterns through Unsupervised Clustering”](https://ieeexplore.ieee.org/document/10851006), recognizing excellence in AI-driven behavioral modeling.
-
-
-
----
-
-## Announcements
-- **Best Research Paper Award** – *IEEE International Conference on Advancements in Computing (ICAC 2024)*  
-  *For the paper “Unveiling Motion Patterns through Unsupervised Clustering,” recognizing excellence in AI-driven behavioral modeling.*
-
-- **Undergraduate Research Excellence Award**, *University of Peradeniya (2024)*  
-  *Awarded for outstanding research in computational modeling and deep learning.*
-
-- **Dean’s List** – Faculty of Engineering, *University of Peradeniya* (2020–2024)  
-  *Recognized for consistent academic excellence throughout undergraduate studies.*
-
-- **Best Final-Year Project (Department of Electrical & Electronic Engineering)**  
-  *For developing “AVSim,” a realistic agent-based disease simulation framework integrating AI and signal modeling.*
-
----
-
-## Announcements
-- **Best Research Paper Award** – *IEEE International Conference on Advancements in Computing (ICAC 2024)*  
-  *For the paper “Unveiling Motion Patterns through Unsupervised Clustering,” recognizing excellence in AI-driven behavioral modeling.*
-
-- **Undergraduate Research Excellence Award**, *University of Peradeniya (2024)*  
-  *Awarded for outstanding research in computational modeling and deep learning.*
-
-- **Dean’s List** – Faculty of Engineering, *University of Peradeniya* (2020–2024)  
-  *Recognized for consistent academic excellence throughout undergraduate studies.*
-
-- **Best Final-Year Project (Department of Electrical & Electronic Engineering)**  
-  *For developing “AVSim,” a realistic agent-based disease simulation framework integrating AI and signal modeling.*
 
 ---
 
