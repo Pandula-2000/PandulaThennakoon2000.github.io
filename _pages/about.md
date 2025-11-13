@@ -10,13 +10,12 @@ redirect_from:
 ## About Me
 
 I am **Pandula Thennakoon**, a researcher in **Electrical and Electronic Engineering** with a strong background in **signal processing, artificial intelligence, and machine learning**.  
-My research focuses on developing intelligent computational models that bridge **theoretical signal representation** with **modern deep learning** techniques — particularly in the areas of **implicit neural representations (INRs)** and **agent-based modeling of complex systems**.
-
-I am currently applying for **PhD programs** in Electrical and Electronic Engineering, aiming to advance the frontier of intelligent systems for **signal understanding, modeling, and synthesis** across both physical and social domains.
+My research focuses on developing intelligent computational models that bridge **theoretical signal representation** with **modern deep learning**.
 
 ---
 
-## Research Interests
+## 🔬 Research Interests
+
 - Signal Processing and Representation Learning  
 - Implicit Neural Representations (INRs)  
 - Machine Learning and Deep Learning Theory  
@@ -27,6 +26,18 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 
 ## 📰 News
 
+<!-- NVIDIA Grant Tile -->
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px; border: 1px solid #ddd; padding: 12px; border-radius: 10px;">
+  <img src="/images/nvidia.jpeg" alt="NVIDIA Grant" style="width: 120px; border-radius: 8px;">
+  <div>
+    <h3 style="margin: 0; padding: 0;">💻 <strong>NVIDIA Academic Grant (2024)</strong></h3>
+    <p style="margin: 4px 0 0 0;">
+      Secured the grant to support research on <em>Implicit Neural Representations</em> at the
+      <strong>Multidisciplinary AI Research Center (MARC)</strong>, University of Peradeniya.
+    </p>
+  </div>
+</div>
+
 - 🥉 **Bronze Medal** – *Sri Lanka Physics Olympiad (National Level, 2018)*  
   Recognized for excellence in Physics at the national Olympiad.
 
@@ -34,7 +45,7 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
   Awarded by the Alumni Association of the Faculty of Engineering, University of Peradeniya.
 
 - 🧠 **Predicta 1.0 (October 2024)** – *6th Place Nationally*  
-  Achieved top national ranking at the IEEE Predicta 1.0 competition organized by the IEEE Student Branch, University of Peradeniya.
+  Achieved a top national ranking at the IEEE Predicta 1.0 competition organized by the IEEE Student Branch, University of Peradeniya.
 
 - 🏆 **Professor Bartholomeusz Award (December 2024)** – *Best Engineering Mathematics Project*  
   Awarded by the Alumni Association of the Faculty of Engineering, University of Peradeniya.
@@ -42,20 +53,13 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 - 🧾 **Outstanding Paper Award – ICAC 2024 (December)**  
   For the paper titled <a href="https://ieeexplore.ieee.org/document/10851006" target="_blank" rel="noopener noreferrer"><strong>“Unveiling Motion Patterns through Unsupervised Clustering”</strong></a>, recognizing excellence in AI-driven behavioral modeling.
 
-- 💻 **NVIDIA Academic Grant (2024)**  
-  Secured the grant to support research on *Implicit Neural Representations* at the **Multidisciplinary AI Research Center (MARC)**, University of Peradeniya.
-
-- 🎓 **W. M. G. Fernando Prize (2025)**  
-  Received for outstanding performance in *Electronic Communications* at the **General Convocation**, University of Peradeniya.
-
 ---
 
 ## 📫 Contact
 
-- **GitHub:** [Pandula-2000](https://github.com/Pandula-2000)  
-- **LinkedIn:** [linkedin.com/in/pandula-thennakoon](https://linkedin.com/in/pandula-thennakoon)  
-- **Email:** *pandula66@gmail.com*  
+- **GitHub:** <a href="https://github.com/Pandula-2000" target="_blank" rel="noopener noreferrer"><strong>Pandula-2000</strong></a>  
+- **LinkedIn:** <a href="https://linkedin.com/in/pandula-thennakoon" target="_blank" rel="noopener noreferrer"><strong>linkedin.com/in/pandula-thennakoon</strong></a>  
+- **Email:** *pandula66@gmail.com*
 
----
 
 *This website is powered by the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template and hosted on [GitHub Pages](https://pages.github.com).*
