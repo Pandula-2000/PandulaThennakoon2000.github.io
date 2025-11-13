@@ -54,6 +54,25 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 - 🥉 **Bronze Medal** – *Sri Lanka Physics Olympiad (National Level, 2018)*  
   Recognized for excellence in Physics at the national Olympiad.
 
+- 🧾 **Outstanding Paper Award – ICAC 2024 (December)**  
+  For the paper titled [“Unveiling Motion Patterns through Unsupervised Clustering”](https://ieeexplore.ieee.org/document/10851006), recognizing excellence in AI-driven behavioral modeling.
+
+
+
+---
+
+## Announcements
+- **Best Research Paper Award** – *IEEE International Conference on Advancements in Computing (ICAC 2024)*  
+  *For the paper “Unveiling Motion Patterns through Unsupervised Clustering,” recognizing excellence in AI-driven behavioral modeling.*
+
+- **Undergraduate Research Excellence Award**, *University of Peradeniya (2024)*  
+  *Awarded for outstanding research in computational modeling and deep learning.*
+
+- **Dean’s List** – Faculty of Engineering, *University of Peradeniya* (2020–2024)  
+  *Recognized for consistent academic excellence throughout undergraduate studies.*
+
+- **Best Final-Year Project (Department of Electrical & Electronic Engineering)**  
+  *For developing “AVSim,” a realistic agent-based disease simulation framework integrating AI and signal modeling.*
 
 ---
 
