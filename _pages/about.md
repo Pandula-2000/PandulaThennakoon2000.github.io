@@ -27,30 +27,33 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 
 ## 📰 News
 
-- 🥉 **Bronze Medal** – *Sri Lanka Physics Olympiad (National Level, 2018)*  
-  Recognized for excellence in Physics at the national Olympiad.
+- 💻 **NVIDIA Academic Grant (2024)**  
+  Secured the grant to support research on *Implicit Neural Representations* at the **Multidisciplinary AI Research Center (MARC)**, University of Peradeniya.
 
-- 🏅 **Professor Bartholomeusz Award (2022)** – *For excelling in Engineering Mathematics*  
+  <p align="center">
+    <img src="/images/nvidia.jpeg" alt="NVIDIA Academic Grant" style="max-width: 70%; border-radius: 10px;">
+  </p>
+
+- 🎓 **W. M. G. Fernando Prize (2025)**  
+  Received for outstanding performance in *Electronic Communications* at the **General Convocation**, University of Peradeniya.
+
+- 🧾 **Outstanding Paper Award – ICAC 2024 (December)**  
+  For the paper titled <a href="https://ieeexplore.ieee.org/document/10851006" target="_blank" rel="noopener noreferrer"><strong>“Unveiling Motion Patterns through Unsupervised Clustering”</strong></a>, recognizing excellence in AI-driven behavioral modeling.
+
+
+- 🏆 **Professor Bartholomeusz Award (December 2024)** – *Best Engineering Mathematics Project*  
   Awarded by the Alumni Association of the Faculty of Engineering, University of Peradeniya.
 
 - 🧠 **Predicta 1.0 (October 2024)** – *6th Place Nationally*  
   Achieved top national ranking at the IEEE Predicta 1.0 competition organized by the IEEE Student Branch, University of Peradeniya.
 
-- 🏆 **Professor Bartholomeusz Award (December 2024)** – *Best Engineering Mathematics Project*  
+
+- 🏅 **Professor Bartholomeusz Award (2022)** – *For excelling in Engineering Mathematics*  
   Awarded by the Alumni Association of the Faculty of Engineering, University of Peradeniya.
 
-- 🧾 **Outstanding Paper Award – ICAC 2024 (December)**  
-  For the paper titled <a href="https://ieeexplore.ieee.org/document/10851006" target="_blank" rel="noopener noreferrer"><strong>“Unveiling Motion Patterns through Unsupervised Clustering”</strong></a>, recognizing excellence in AI-driven behavioral modeling.
+- 🥉 **Bronze Medal** – *Sri Lanka Physics Olympiad (National Level, 2018)*  
+  Recognized for excellence in Physics at the national Olympiad.
 
-- 💻 **NVIDIA Academic Grant (2024)**  
-  Secured the grant to support research on *Implicit Neural Representations* at the **Multidisciplinary AI Research Center (MARC)**, University of Peradeniya.
-
-  <p align="center">
-    <img src="/assets/images/nvidia.jpeg" alt="NVIDIA Academic Grant" style="max-width: 70%; border-radius: 10px;">
-  </p>
-
-- 🎓 **W. M. G. Fernando Prize (2025)**  
-  Received for outstanding performance in *Electronic Communications* at the **General Convocation**, University of Peradeniya.
 
 ---
 
