@@ -15,8 +15,9 @@ excerpt_html: "<strong>AVSim</strong> is a realistic <strong>agent-based simulat
 
 ## Visual Overview
 
-<iframe src="/files/ABM_poster.pdf#view=FitH" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;">
-</iframe>
+<p align="center">
+  <img src="/images/ABM_poster.jpg" alt="AVSim Project Poster" style="max-width: 90%; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.15);">
+</p>
 
 
 ## Overview
