@@ -3,11 +3,10 @@ title: "AVSim: Realistic Simulation Framework for Airborne and Vector-Borne Dise
 collection: projects
 permalink: /projects/ABM
 date: 2025-07-20
-excerpt_html: "A realistic <strong>AI-driven agent-based framework</strong> for modeling airborne and vector-borne diseases using real-world mobility data."
+excerpt: "An agent-based simulation framework integrating real-world mobility data, spectral clustering, and AI for epidemic modeling."
 venue: "Submitted to IEEE Transactions on Systems, Man, and Cybernetics: Systems (2025)"
 paperurl: "/files/2502.06212v2.pdf"
 ---
-
 
 **Summary:**  
 **AVSim** is a realistic agent-based modeling framework for **airborne** and **vector-borne** diseases that integrates **real-world GPS mobility data**, **spectral clustering**, and **graph-theoretic behavior analysis**.  
