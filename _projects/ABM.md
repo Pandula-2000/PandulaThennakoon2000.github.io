@@ -13,6 +13,11 @@ venue: ""
 excerpt_html: "<strong>AVSim</strong> is a realistic <strong>agent-based simulation framework</strong> designed to model airborne and vector-borne disease spread using real-world mobility patterns."
 ---
 
+## Visual Overview
+
+<iframe src="/images/ABM_poster.pdf#view=FitH" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
+
 ## Overview
 
 **AVSim** is a comprehensive, high-fidelity **agent-based simulation framework** developed to model the dynamics of **airborne** (e.g., COVID-19) and **vector-borne** (e.g., dengue) diseases.  
