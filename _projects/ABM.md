@@ -3,13 +3,14 @@ title: "AVSim: Realistic Simulation Framework for Airborne and Vector-Borne Dise
 collection: projects
 permalink: /projects/ABM
 author_profile: true
-
-# Turn off publication fields
 classes: wide
-date: false
-venue: false
-excerpt_html: "<strong>AVSim</strong> is a realistic <strong>agent-based simulation framework</strong> designed to model airborne and vector-borne disease spread using real-world mobility patterns."
 
+# GitHub Pages requires a valid date (cannot be false)
+date: 2025-01-01
+
+# Turn off publication-style fields
+venue: ""
+excerpt_html: "<strong>AVSim</strong> is a realistic <strong>agent-based simulation framework</strong> designed to model airborne and vector-borne disease spread using real-world mobility patterns."
 ---
 
 ## Overview
@@ -81,6 +82,4 @@ AVSim supports analysis of:
 ## Resources
 
 📄 <a href="/files/2502.06212v2.pdf" target="_blank" rel="noopener noreferrer"><strong>Download Full Technical Paper (PDF)</strong></a>  
-📁 <a href="https://github.com/Pandula-2000" target="_blank" rel="noopener noreferrer"><strong>Source Code (Coming Soon)</strong></a>  
-
----
+📁 <a href="https://github.com/Pandula-2000" target="_blank" rel="noope_
