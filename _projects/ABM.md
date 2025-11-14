@@ -2,24 +2,85 @@
 title: "AVSim: Realistic Simulation Framework for Airborne and Vector-Borne Disease Dynamics"
 collection: projects
 permalink: /projects/ABM
-date: 2025-07-20
-excerpt: "An agent-based simulation framework integrating real-world mobility data, spectral clustering, and AI for epidemic modeling."
-venue: "Submitted to IEEE Transactions on Systems, Man, and Cybernetics: Systems (2025)"
-paperurl: "/files/2502.06212v2.pdf"
+author_profile: true
+
+# Turn off publication fields
+classes: wide
+date: false
+venue: false
+excerpt_html: "<strong>AVSim</strong> is a realistic <strong>agent-based simulation framework</strong> designed to model airborne and vector-borne disease spread using real-world mobility patterns."
+
 ---
 
-**Summary:**  
-**AVSim** is a realistic agent-based modeling framework for **airborne** and **vector-borne** diseases that integrates **real-world GPS mobility data**, **spectral clustering**, and **graph-theoretic behavior analysis**.  
-It models **occupation-specific behavior** and **transportation networks** to simulate epidemic spread with fine spatial and behavioral granularity.
+## Overview
 
-**Highlights:**
-- Incorporates **occupation-based movement patterns** from real-world GPS traces  
-- Simulates **quarantine, vaccination, and vector-control** policies  
-- Models **COVID-19** and **dengue** dynamics using an extended SEIR structure  
-- Combines **AI**, **signal modeling**, and **epidemiology** under one framework  
+**AVSim** is a comprehensive, high-fidelity **agent-based simulation framework** developed to model the dynamics of **airborne** (e.g., COVID-19) and **vector-borne** (e.g., dengue) diseases.  
+Unlike traditional compartment models, AVSim integrates **real-world GPS mobility traces**, **spectral clustering**, and **graph-theoretic behavior analysis** to recreate realistic human movement and interactions.
 
-**Keywords:** Agent-Based Modeling, Epidemiology, Complex Systems, AI for Public Health
+The system models both:
+- **Personal-level movement** (home, work, transport, clustered mobility)  
+- **Community-level environments** (zones, cities, transportation networks)  
 
-[📄 Read Full Paper (PDF)](/files/2502.06212v2.pdf)
+This results in a simulation platform capable of analyzing **policy interventions**, **disease propagation**, and **high-risk behavior patterns** under realistic conditions.
 
+---
 
+## Key Features
+
+### 🔍 1. Real-World Mobility Modeling  
+AVSim incorporates real GPS data from participants, processes motion patterns using **DBSCAN** and **spectral clustering**, and reconstructs realistic daily movement through probabilistic mobility matrices.
+
+### 🏥 2. Airborne Disease Simulation  
+Includes:
+- Close-contact transmission modeling  
+- Quarantine strategies  
+- Vaccination rollout  
+- PCR testing and contact tracing  
+- Adjustable susceptibility and immunity profiles  
+
+### 🦟 3. Vector-Borne Disease Simulation  
+Implements:
+- Patch-based Aedes mosquito density modeling  
+- Environment-dependent incubation  
+- Temperature-driven vector lifecycle  
+- Weekly control interventions (spraying, hotspot elimination)
+
+### 🚌 4. Transportation-Aware Disease Spread  
+Simulates:
+- Inter-city and intra-city buses  
+- Private vs public transport  
+- High-risk exposure zones during travel  
+
+### 📊 5. Policy Evaluation  
+AVSim supports analysis of:
+- Social distancing  
+- Vaccination timing and coverage  
+- Quarantine effectiveness  
+- Vector-control strategies  
+- Hotspot identification  
+
+---
+
+## Highlights
+
+- Uses **real GPS mobility** from 100+ participants across 13 occupations  
+- Identifies hidden behavioral subtypes using **unsupervised clustering**  
+- Models **COVID-19** and **dengue** with high spatial and behavioral granularity  
+- Integrates AI, signal modeling, epidemiology, and transport simulation  
+- Fully modular framework adaptable to new diseases and environments  
+
+---
+
+## Keywords
+
+**Agent-Based Modeling**, **Epidemiology**, **Mobility Analysis**, **Complex Systems**,  
+**Simulation Tools**, **AI for Public Health**, **Vector-Borne Diseases**, **COVID-19 Modeling**
+
+---
+
+## Resources
+
+📄 <a href="/files/2502.06212v2.pdf" target="_blank" rel="noopener noreferrer"><strong>Download Full Technical Paper (PDF)</strong></a>  
+📁 <a href="https://github.com/Pandula-2000" target="_blank" rel="noopener noreferrer"><strong>Source Code (Coming Soon)</strong></a>  
+
+---
