@@ -3,7 +3,7 @@ title: "COSMO-RC: Complex Sinusoidal Modulation for Implicit Neural Representati
 collection: projects
 permalink: /projects/INR
 date: 2025-02-01
-excerpt: "A novel activation mechanism for implicit neural representations (INRs) using complex sinusoidal modulation and Chebyshev harmonic analysis."
+excerpt_html: "<strong>A novel activation mechanism</strong> for implicit neural representations (INRs) using complex sinusoidal modulation."
 venue: "Under review at ICLR 2026"
 paperurl: "/files/COSMO_RC_ICLR.pdf"
 ---
@@ -20,6 +20,5 @@ It mitigates *spectral bias* and improves the frequency representation of signal
 **Keywords:** Implicit Neural Representation, Signal Processing, Activation Functions, Deep Learning
 
 [📄 Read Full Paper (PDF)](/files/COSMO_RC_ICLR.pdf)
-
 
 

@@ -27,7 +27,7 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 
 ## 📰 News
 
-- 💻 **NVIDIA Academic Grant (2024)**  
+- 💻 **NVIDIA Academic Grant (2025 october)**  
   Secured the grant to support research on *Implicit Neural Representations* at the **Multidisciplinary AI Research Center (MARC)**, University of Peradeniya.
 
 - 🎓 **W. M. G. Fernando Prize (2025)**  
@@ -35,7 +35,6 @@ I am currently applying for **PhD programs** in Electrical and Electronic Engine
 
 - 🧾 **Outstanding Paper Award – ICAC 2024 (December)**  
   For the paper titled <a href="https://ieeexplore.ieee.org/document/10851006" target="_blank" rel="noopener noreferrer"><strong>“Unveiling Motion Patterns through Unsupervised Clustering”</strong></a>, recognizing excellence in AI-driven behavioral modeling.
-
 
 - 🏆 **Professor Bartholomeusz Award (December 2024)** – *Best Engineering Mathematics Project*  
   Awarded by the Alumni Association of the Faculty of Engineering, University of Peradeniya.
