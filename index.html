@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Shapes for Depth -->
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+
+    <div class="main-container glass">
+        
+        <!-- Sidebar / Profile Section -->
+        <div class="sidebar">
+            <div class="profile-img-container">
+                <!-- Replace with your photo URL -->
+                <img src="https://via.placeholder.com/150" alt="Profile Photo">
+            </div>
+            <h2 class="name">Your Name</h2>
+            <p class="role">Researcher & Developer</p>
+            
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <nav class="nav-links">
+                <button class="tab-link active" onclick="openTab(event, 'home')">
+                    <i class="fas fa-trophy"></i> Home & Achievements
+                </button>
+                <button class="tab-link" onclick="openTab(event, 'research')">
+                    <i class="fas fa-flask"></i> Research
+                </button>
+                <button class="tab-link" onclick="openTab(event, 'publications')">
+                    <i class="fas fa-book"></i> Publications
+                </button>
+                <button class="tab-link" onclick="openTab(event, 'talks')">
+                    <i class="fas fa-microphone"></i> Talks
+                </button>
+                <button class="tab-link" onclick="openTab(event, 'resume')">
+                    <i class="fas fa-file-alt"></i> Resume
+                </button>
+            </nav>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="content-area">
+            
+            <!-- HOME / ACHIEVEMENTS SECTION -->
+            <div id="home" class="tab-content active-content">
+                <h1>Welcome</h1>
+                <p class="bio">
+                    I am a passionate researcher focusing on AI and System Design. 
+                    Below are some highlights of my professional journey.
+                </p>
+
+                <h3 class="section-title">Key Achievements</h3>
+                <div class="achievements-grid">
+                    <div class="card glass-card">
+                        <i class="fas fa-award icon-gold"></i>
+                        <h4>Best Paper Award</h4>
+                        <p>IEEE Conference 2024</p>
+                    </div>
+                    <div class="card glass-card">
+                        <i class="fas fa-graduation-cap icon-blue"></i>
+                        <h4>PhD Fellowship</h4>
+                        <p>Awarded National Science Grant</p>
+                    </div>
+                    <div class="card glass-card">
+                        <i class="fas fa-code-branch icon-green"></i>
+                        <h4>Open Source</h4>
+                        <p>1k+ Stars on GitHub Project</p>
+                    </div>
+                    <div class="card glass-card">
+                        <i class="fas fa-users icon-purple"></i>
+                        <h4>Keynote Speaker</h4>
+                        <p>Tech Summit Berlin 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RESEARCH SECTION -->
+            <div id="research" class="tab-content">
+                <h1>Research Interests</h1>
+                <div class="item-entry">
+                    <h3>Deep Learning Optimization</h3>
+                    <p>Investigating novel loss functions for sparse data sets. Currently experimenting with transformer architectures.</p>
+                </div>
+                <div class="item-entry">
+                    <h3>Human-Computer Interaction</h3>
+                    <p>Studying latency effects in VR environments and their impact on user motion sickness.</p>
+                </div>
+            </div>
+
+            <!-- PUBLICATIONS SECTION -->
+            <div id="publications" class="tab-content">
+                <h1>Publications</h1>
+                <ul class="list-style">
+                    <li>
+                        <strong>"Optimizing Neural Nets"</strong> <br>
+                        <em>Journal of AI, 2024</em> - <a href="#">[PDF]</a> <a href="#">[Code]</a>
+                    </li>
+                    <li>
+                        <strong>"Glassmorphism in Web Design"</strong> <br>
+                        <em>International Design Conference, 2023</em> - <a href="#">[PDF]</a>
+                    </li>
+                    <li>
+                        <strong>"Legacy Systems Migration"</strong> <br>
+                        <em>Tech Review, 2022</em> - <a href="#">[Link]</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- TALKS SECTION -->
+            <div id="talks" class="tab-content">
+                <h1>Talks & Presentations</h1>
+                <div class="item-entry">
+                    <span class="date">Nov 2024</span>
+                    <h3>The Future of Web Styling</h3>
+                    <p>Hosted by Frontend Masters Group</p>
+                </div>
+                <div class="item-entry">
+                    <span class="date">Aug 2023</span>
+                    <h3>AI in Healthcare</h3>
+                    <p>Guest Lecture at University of Tech</p>
+                </div>
+            </div>
+
+            <!-- RESUME SECTION -->
+            <div id="resume" class="tab-content">
+                <h1>Resume</h1>
+                <p>A summary of my professional experience.</p>
+                
+                <a href="#" class="btn-download glass-btn">
+                    <i class="fas fa-download"></i> Download Full PDF
+                </a>
+
+                <div class="resume-block">
+                    <h3>Education</h3>
+                    <p><strong>PhD in Computer Science</strong> - University Name (2020-2024)</p>
+                    <p><strong>BS in Engineering</strong> - University Name (2016-2020)</p>
+                </div>
+
+                <div class="resume-block">
+                    <h3>Experience</h3>
+                    <p><strong>Senior Researcher</strong> - Tech Corp (2024-Present)</p>
+                    <p><strong>Junior Developer</strong> - StartUp Inc (2020-2022)</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
