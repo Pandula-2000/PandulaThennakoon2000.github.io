@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link to your CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,8 +22,13 @@
         <!-- SIDEBAR -->
         <div class="sidebar">
             <div class="profile-img-container">
-                <!-- Image Path Updated -->
-                <img src="images/profile_pic.png" alt="Profile Photo">
+                <!-- 
+                   FIX APPLIED: 
+                   1. Removed 'onerror' to stop flickering.
+                   2. Removed leading '/' so it works on GitHub Pages.
+                   3. Path is relative: 'images/profile_pic.png'
+                -->
+                <img src="images/profile_pic.png" alt="Profile Photo" class="profile-img">
             </div>
             <h2 class="name">Your Name</h2>
             <p class="role">Researcher & Developer</p>
@@ -32,6 +40,7 @@
                 <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
             </div>
 
+            <!-- Navigation -->
             <nav class="nav-links">
                 <button class="tab-link active" onclick="openTab(event, 'home')">
                     <i class="fas fa-user"></i> About & Achievements
@@ -54,7 +63,7 @@
         <!-- MAIN CONTENT AREA -->
         <div class="content-area">
             
-            <!-- === HOME TAB (Vertical Tiles) === -->
+            <!-- === HOME TAB (About + Achievements) === -->
             <div id="home" class="tab-content active-content">
                 <div class="vertical-layout">
                     
@@ -65,10 +74,6 @@
                             I am a dedicated researcher with a passion for solving complex problems. 
                             My work bridges the gap between theoretical algorithms and real-world applications. 
                             I enjoy building systems that are not only efficient but also intuitive to use.
-                        </p>
-                        <p>
-                            Currently, I am focusing on distributed systems and neural network optimization.
-                            When I am not coding, I enjoy hiking and photography.
                         </p>
                     </div>
 
@@ -106,7 +111,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
@@ -119,21 +123,21 @@
                     <p>Click on a project card to view full details.</p>
                     
                     <div class="research-grid">
-                        <!-- Project Card 1 -->
+                        <!-- Project 1 Trigger -->
                         <div class="glass-card project-card" onclick="openProject('proj1')">
                             <h3>Neural Optima</h3>
                             <p>Optimizing loss functions for sparse datasets using novel gradient techniques.</p>
                             <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
                         </div>
 
-                        <!-- Project Card 2 -->
+                        <!-- Project 2 Trigger -->
                         <div class="glass-card project-card" onclick="openProject('proj2')">
                             <h3>VR Latency Study</h3>
                             <p>Analyzing the impact of 50ms+ latency on user motion sickness in virtual environments.</p>
                             <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
                         </div>
 
-                        <!-- Project Card 3 -->
+                        <!-- Project 3 Trigger -->
                         <div class="glass-card project-card" onclick="openProject('proj3')">
                             <h3>Eco-Algorithms</h3>
                             <p>Reducing energy consumption in data centers through smart load balancing.</p>
@@ -142,52 +146,36 @@
                     </div>
                 </div>
 
-                <!-- Research Detail Views (Initially Hidden) -->
+                <!-- Research Detail Pages (Hidden by default) -->
                 
-                <!-- Project 1 Details -->
                 <div id="proj1" class="project-detail">
-                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back to List</button>
+                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back</button>
                     <h1>Neural Optima: Deep Dive</h1>
                     <div class="glass-panel">
                         <h3>Abstract</h3>
-                        <p>This project addresses the issue of vanishing gradients in ultra-sparse datasets...</p>
-                        
-                        <h3>Methodology</h3>
-                        <p>We utilized a custom transformer architecture trained on 4 distinct datasets. 
-                        The results showed a 15% increase in convergence speed.</p>
-                        
-                        <h3>Visuals</h3>
-                        <div class="detail-placeholder-box">
-                            [Insert Graph/Image Here]
-                        </div>
-
-                        <h3>Links</h3>
-                        <a href="#" class="link-btn">View Code on GitHub</a>
+                        <p>This project addresses the issue of vanishing gradients in ultra-sparse datasets.</p>
+                        <h3>Results</h3>
+                        <p>We achieved a 15% increase in convergence speed.</p>
                     </div>
                 </div>
 
-                <!-- Project 2 Details -->
                 <div id="proj2" class="project-detail">
-                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back to List</button>
-                    <h1>VR Latency & Motion Sickness</h1>
+                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back</button>
+                    <h1>VR Latency</h1>
                     <div class="glass-panel">
                         <h3>Overview</h3>
-                        <p>Virtual Reality often induces nausea due to the disconnect between visual input and vestibular system...</p>
-                        <h3>Results</h3>
-                        <p>Our study of 100 participants concluded that keeping latency below 12ms is critical.</p>
+                        <p>Studying motion sickness in high-fidelity VR environments.</p>
                     </div>
                 </div>
 
-                <!-- Project 3 Details -->
                 <div id="proj3" class="project-detail">
-                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back to List</button>
+                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back</button>
                     <h1>Eco-Algorithms</h1>
                     <div class="glass-panel">
-                        <h3>Sustainability in Tech</h3>
-                        <p>Data centers consume 2% of global electricity. This project aims to reduce that footprint.</p>
+                        <h3>Sustainability</h3>
+                        <p>Algorithms to reduce server heat generation.</p>
                     </div>
                 </div>
-
             </div>
 
             <!-- === PUBLICATIONS TAB === -->
@@ -198,10 +186,6 @@
                         <strong>"Optimizing Neural Nets"</strong> <br>
                         <em>Journal of AI, 2024</em> - <a href="#">[PDF]</a>
                     </li>
-                    <li>
-                        <strong>"Glassmorphism in Web Design"</strong> <br>
-                        <em>International Design Conference, 2023</em>
-                    </li>
                 </ul>
             </div>
 
@@ -211,23 +195,22 @@
                 <div class="glass-panel item-entry">
                     <span class="date">Nov 2024</span>
                     <h3>The Future of Web Styling</h3>
-                    <p>Hosted by Frontend Masters Group</p>
                 </div>
             </div>
 
             <!-- === RESUME TAB === -->
             <div id="resume" class="tab-content">
                 <h1>Resume</h1>
-                <a href="#" class="btn-download glass-btn">Download PDF</a>
                 <div class="glass-panel">
                     <h3>Education</h3>
-                    <p>PhD in CS, 2024</p>
+                    <p>PhD in Computer Science</p>
                 </div>
             </div>
 
         </div>
     </div>
 
+    <!-- Link to your JS file -->
     <script src="script.js"></script>
 </body>
 </html>
