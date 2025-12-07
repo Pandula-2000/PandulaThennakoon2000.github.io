@@ -4,25 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Background Shapes for Depth -->
+    <!-- Background Shapes -->
     <div class="circle circle-1"></div>
     <div class="circle circle-2"></div>
 
     <div class="main-container glass">
         
-        <!-- Sidebar / Profile Section -->
+        <!-- SIDEBAR -->
         <div class="sidebar">
             <div class="profile-img-container">
-                <!-- Replace with your photo URL -->
-                <img src="https://via.placeholder.com/150" alt="Profile Photo">
+                <!-- Image Path Updated -->
+                <img src="images/profile_pic.png" alt="Profile Photo" onerror="this.src='https://via.placeholder.com/150'">
             </div>
             <h2 class="name">Your Name</h2>
             <p class="role">Researcher & Developer</p>
@@ -34,10 +32,9 @@
                 <a href="mailto:email@example.com"><i class="fas fa-envelope"></i></a>
             </div>
 
-            <!-- Navigation Tabs -->
             <nav class="nav-links">
                 <button class="tab-link active" onclick="openTab(event, 'home')">
-                    <i class="fas fa-trophy"></i> Home & Achievements
+                    <i class="fas fa-user"></i> About & Achievements
                 </button>
                 <button class="tab-link" onclick="openTab(event, 'research')">
                     <i class="fas fa-flask"></i> Research
@@ -54,108 +51,177 @@
             </nav>
         </div>
 
-        <!-- Main Content Area -->
+        <!-- MAIN CONTENT AREA -->
         <div class="content-area">
             
-            <!-- HOME / ACHIEVEMENTS SECTION -->
+            <!-- === HOME TAB (Vertical Tiles) === -->
             <div id="home" class="tab-content active-content">
-                <h1>Welcome</h1>
-                <p class="bio">
-                    I am a passionate researcher focusing on AI and System Design. 
-                    Below are some highlights of my professional journey.
-                </p>
+                <div class="vertical-layout">
+                    
+                    <!-- Tile 1: About Me -->
+                    <div class="glass-panel about-panel">
+                        <h2>About Me</h2>
+                        <p>
+                            I am a dedicated researcher with a passion for solving complex problems. 
+                            My work bridges the gap between theoretical algorithms and real-world applications. 
+                            I enjoy building systems that are not only efficient but also intuitive to use.
+                        </p>
+                        <p>
+                            Currently, I am focusing on distributed systems and neural network optimization.
+                            When I am not coding, I enjoy hiking and photography.
+                        </p>
+                    </div>
 
-                <h3 class="section-title">Key Achievements</h3>
-                <div class="achievements-grid">
-                    <div class="card glass-card">
-                        <i class="fas fa-award icon-gold"></i>
-                        <h4>Best Paper Award</h4>
-                        <p>IEEE Conference 2024</p>
+                    <!-- Tile 2: Achievements -->
+                    <div class="glass-panel achievements-panel">
+                        <h2>Achievements</h2>
+                        <div class="achievements-grid">
+                            <div class="ach-card">
+                                <i class="fas fa-award icon-gold"></i>
+                                <div>
+                                    <h4>Best Paper Award</h4>
+                                    <small>IEEE Conf 2024</small>
+                                </div>
+                            </div>
+                            <div class="ach-card">
+                                <i class="fas fa-university icon-blue"></i>
+                                <div>
+                                    <h4>Full Scholarship</h4>
+                                    <small>University Merit Grant</small>
+                                </div>
+                            </div>
+                            <div class="ach-card">
+                                <i class="fas fa-code icon-green"></i>
+                                <div>
+                                    <h4>Hackathon Winner</h4>
+                                    <small>Global Tech 2023</small>
+                                </div>
+                            </div>
+                            <div class="ach-card">
+                                <i class="fas fa-star icon-purple"></i>
+                                <div>
+                                    <h4>Top Writer</h4>
+                                    <small>Medium Tech Blog</small>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card glass-card">
-                        <i class="fas fa-graduation-cap icon-blue"></i>
-                        <h4>PhD Fellowship</h4>
-                        <p>Awarded National Science Grant</p>
-                    </div>
-                    <div class="card glass-card">
-                        <i class="fas fa-code-branch icon-green"></i>
-                        <h4>Open Source</h4>
-                        <p>1k+ Stars on GitHub Project</p>
-                    </div>
-                    <div class="card glass-card">
-                        <i class="fas fa-users icon-purple"></i>
-                        <h4>Keynote Speaker</h4>
-                        <p>Tech Summit Berlin 2023</p>
-                    </div>
+
                 </div>
             </div>
 
-            <!-- RESEARCH SECTION -->
+            <!-- === RESEARCH TAB === -->
             <div id="research" class="tab-content">
-                <h1>Research Interests</h1>
-                <div class="item-entry">
-                    <h3>Deep Learning Optimization</h3>
-                    <p>Investigating novel loss functions for sparse data sets. Currently experimenting with transformer architectures.</p>
+                
+                <!-- Research List View -->
+                <div id="research-list">
+                    <h1>Research Projects</h1>
+                    <p>Click on a project card to view full details.</p>
+                    
+                    <div class="research-grid">
+                        <!-- Project Card 1 -->
+                        <div class="glass-card project-card" onclick="openProject('proj1')">
+                            <h3>Neural Optima</h3>
+                            <p>Optimizing loss functions for sparse datasets using novel gradient techniques.</p>
+                            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+
+                        <!-- Project Card 2 -->
+                        <div class="glass-card project-card" onclick="openProject('proj2')">
+                            <h3>VR Latency Study</h3>
+                            <p>Analyzing the impact of 50ms+ latency on user motion sickness in virtual environments.</p>
+                            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+
+                        <!-- Project Card 3 -->
+                        <div class="glass-card project-card" onclick="openProject('proj3')">
+                            <h3>Eco-Algorithms</h3>
+                            <p>Reducing energy consumption in data centers through smart load balancing.</p>
+                            <span class="read-more">Read More <i class="fas fa-arrow-right"></i></span>
+                        </div>
+                    </div>
                 </div>
-                <div class="item-entry">
-                    <h3>Human-Computer Interaction</h3>
-                    <p>Studying latency effects in VR environments and their impact on user motion sickness.</p>
+
+                <!-- Research Detail Views (Initially Hidden) -->
+                
+                <!-- Project 1 Details -->
+                <div id="proj1" class="project-detail">
+                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back to List</button>
+                    <h1>Neural Optima: Deep Dive</h1>
+                    <div class="glass-panel">
+                        <h3>Abstract</h3>
+                        <p>This project addresses the issue of vanishing gradients in ultra-sparse datasets...</p>
+                        
+                        <h3>Methodology</h3>
+                        <p>We utilized a custom transformer architecture trained on 4 distinct datasets. 
+                        The results showed a 15% increase in convergence speed.</p>
+                        
+                        <h3>Visuals</h3>
+                        <div class="detail-placeholder-box">
+                            [Insert Graph/Image Here]
+                        </div>
+
+                        <h3>Links</h3>
+                        <a href="#" class="link-btn">View Code on GitHub</a>
+                    </div>
                 </div>
+
+                <!-- Project 2 Details -->
+                <div id="proj2" class="project-detail">
+                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back to List</button>
+                    <h1>VR Latency & Motion Sickness</h1>
+                    <div class="glass-panel">
+                        <h3>Overview</h3>
+                        <p>Virtual Reality often induces nausea due to the disconnect between visual input and vestibular system...</p>
+                        <h3>Results</h3>
+                        <p>Our study of 100 participants concluded that keeping latency below 12ms is critical.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 Details -->
+                <div id="proj3" class="project-detail">
+                    <button class="back-btn" onclick="closeProject()"><i class="fas fa-arrow-left"></i> Back to List</button>
+                    <h1>Eco-Algorithms</h1>
+                    <div class="glass-panel">
+                        <h3>Sustainability in Tech</h3>
+                        <p>Data centers consume 2% of global electricity. This project aims to reduce that footprint.</p>
+                    </div>
+                </div>
+
             </div>
 
-            <!-- PUBLICATIONS SECTION -->
+            <!-- === PUBLICATIONS TAB === -->
             <div id="publications" class="tab-content">
                 <h1>Publications</h1>
                 <ul class="list-style">
                     <li>
                         <strong>"Optimizing Neural Nets"</strong> <br>
-                        <em>Journal of AI, 2024</em> - <a href="#">[PDF]</a> <a href="#">[Code]</a>
+                        <em>Journal of AI, 2024</em> - <a href="#">[PDF]</a>
                     </li>
                     <li>
                         <strong>"Glassmorphism in Web Design"</strong> <br>
-                        <em>International Design Conference, 2023</em> - <a href="#">[PDF]</a>
-                    </li>
-                    <li>
-                        <strong>"Legacy Systems Migration"</strong> <br>
-                        <em>Tech Review, 2022</em> - <a href="#">[Link]</a>
+                        <em>International Design Conference, 2023</em>
                     </li>
                 </ul>
             </div>
 
-            <!-- TALKS SECTION -->
+            <!-- === TALKS TAB === -->
             <div id="talks" class="tab-content">
-                <h1>Talks & Presentations</h1>
-                <div class="item-entry">
+                <h1>Talks</h1>
+                <div class="glass-panel item-entry">
                     <span class="date">Nov 2024</span>
                     <h3>The Future of Web Styling</h3>
                     <p>Hosted by Frontend Masters Group</p>
                 </div>
-                <div class="item-entry">
-                    <span class="date">Aug 2023</span>
-                    <h3>AI in Healthcare</h3>
-                    <p>Guest Lecture at University of Tech</p>
-                </div>
             </div>
 
-            <!-- RESUME SECTION -->
+            <!-- === RESUME TAB === -->
             <div id="resume" class="tab-content">
                 <h1>Resume</h1>
-                <p>A summary of my professional experience.</p>
-                
-                <a href="#" class="btn-download glass-btn">
-                    <i class="fas fa-download"></i> Download Full PDF
-                </a>
-
-                <div class="resume-block">
+                <a href="#" class="btn-download glass-btn">Download PDF</a>
+                <div class="glass-panel">
                     <h3>Education</h3>
-                    <p><strong>PhD in Computer Science</strong> - University Name (2020-2024)</p>
-                    <p><strong>BS in Engineering</strong> - University Name (2016-2020)</p>
-                </div>
-
-                <div class="resume-block">
-                    <h3>Experience</h3>
-                    <p><strong>Senior Researcher</strong> - Tech Corp (2024-Present)</p>
-                    <p><strong>Junior Developer</strong> - StartUp Inc (2020-2022)</p>
+                    <p>PhD in CS, 2024</p>
                 </div>
             </div>
 
